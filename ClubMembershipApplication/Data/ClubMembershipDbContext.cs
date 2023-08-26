@@ -17,7 +17,8 @@ namespace ClubMembershipApplication.Data
         }
 
        public DbSet<User> Users { get; set; }
-            
+
         // We can create DB table using our model by using migration . Install EntityCore Tools + SQL lite pkg.
+        // the path of the DB is complex it is "C:\Users\Shabih Sh\source\repos\ClubMembershipApplication\packages\Microsoft.EntityFrameworkCore.Tools.3.1.2\tools\net461\any"
     }
 }
